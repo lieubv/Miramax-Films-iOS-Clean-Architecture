@@ -28,7 +28,7 @@ class GenreCollectionViewCell: UICollectionViewCell {
         containerView = UIView()
         containerView.translatesAutoresizingMaskIntoConstraints = false
         containerView.backgroundColor = UIColor(hex: 0x1A2138)
-        containerView.cornerRadius = 16.0
+        //containerView.cornerRadius= 16.0
         containerView.borderColor = UIColor(hex: 0x354271)
         containerView.borderWidth = 1.0
         

@@ -235,6 +235,7 @@
 		EDFAD39E28D30E7200ED3BCD /* DataSourceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAD39D28D30E7200ED3BCD /* DataSourceAssembly.swift */; };
 		EDFAD3A728D3149500ED3BCD /* ProviderAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAD3A628D3149500ED3BCD /* ProviderAssembly.swift */; };
 		EDFAD3B328D3745D00ED3BCD /* GridCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAD3B228D3745D00ED3BCD /* GridCollectionViewLayout.swift */; };
+		FAB5922C2B3EDF9200F50A78 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FAB5922B2B3EDF9200F50A78 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -483,6 +484,7 @@
 		EDFAD39D28D30E7200ED3BCD /* DataSourceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceAssembly.swift; sourceTree = "<group>"; };
 		EDFAD3A628D3149500ED3BCD /* ProviderAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderAssembly.swift; sourceTree = "<group>"; };
 		EDFAD3B228D3745D00ED3BCD /* GridCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewLayout.swift; sourceTree = "<group>"; };
+		FAB5922B2B3EDF9200F50A78 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -685,6 +687,7 @@
 		ED86E61528C6369800D60351 = {
 			isa = PBXGroup;
 			children = (
+				FAB5922B2B3EDF9200F50A78 /* PrivacyInfo.xcprivacy */,
 				ED86E62028C6369800D60351 /* Miramax Fillms */,
 				ED86E61F28C6369800D60351 /* Products */,
 				329DD7FDEB5D70BD74EF3BD5 /* Pods */,
@@ -1536,6 +1539,7 @@
 				ED45B21F290C2CB6007E7D9F /* SelfieCameraOptionsViewController.xib in Resources */,
 				ED7A095528EC71370035E099 /* Roboto-Medium.ttf in Resources */,
 				ED7A095328EC71370035E099 /* Roboto-Bold.ttf in Resources */,
+				FAB5922C2B3EDF9200F50A78 /* PrivacyInfo.xcprivacy in Resources */,
 				EDD9A19A28E0B93000FBA909 /* GenresViewController.xib in Resources */,
 				EDC5E24D28FBE25D00F1B911 /* ChooseMovieViewController.xib in Resources */,
 				EDC6DB4728CF98F800164EBD /* MovieViewController.xib in Resources */,
@@ -1955,7 +1959,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 548C8S9BX7;
+				DEVELOPMENT_TEAM = R4RM9N78GX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Miramax Fillms/GlobalDefine/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Miramax Fillms need Camera Permission to capture image.";
@@ -1971,7 +1975,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chotchachi.miramax;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotrack365.gps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1992,7 +1996,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 548C8S9BX7;
+				DEVELOPMENT_TEAM = R4RM9N78GX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Miramax Fillms/GlobalDefine/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Miramax Fillms need Camera Permission to capture image.";
@@ -2008,7 +2012,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chotchachi.miramax;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotrack365.gps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

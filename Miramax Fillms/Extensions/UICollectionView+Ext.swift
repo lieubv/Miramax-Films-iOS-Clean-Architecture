@@ -11,8 +11,12 @@ extension UICollectionView {
     func isScrolledToTop() -> Bool {
         return contentOffset == .zero
     }
-
-    func scrollToTop(animated: Bool) {
-        setContentOffset(.zero, animated: animated)
-    }
+    
+//    public override func scrollToTop(animated: Bool = true) {
+//        setContentOffset(.zero, animated: animated)
+//    }
+    
+//    @objc func scrollToTop(animated: Bool) {
+//        setContentOffset(.zero, animated: animated)
+//    }
 }
